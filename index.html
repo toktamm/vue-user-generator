@@ -11,7 +11,7 @@
 
 <body>
   <div id="app">
-    <img v-bind:src="picture" alt="picture">
+    <img v-bind:src="picture" v-bind:alt="firstName">
     <h1>{{firstName}} {{lastName}}</h1>
     <h3>Email: {{email}}</h3>
     <button>Get Random User</button>
